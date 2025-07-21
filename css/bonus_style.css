@@ -35,19 +35,20 @@ a{
 }
 
 .text_blu_mini{
-    margin-bottom: 20px;
-    font-size: 30px;
+    margin-bottom: 15px;
+    padding: 5px 0px;
+    font-size: 25px;
     color: #7984D9;
 }
 
 .text_white_center{
-     color: white;
+    color: white;
     text-align: center;
     padding:15px 0PX;
 }
 
 .text_center{
-    margin-top: 30px;
+    margin: 30px;
     text-align: center;
 }
 h1{
@@ -58,7 +59,6 @@ h1{
 }
 
 h2{
-    margin: 10px 0px;
     font-size: 35px;
     font-weight: bold;
     color: black;
@@ -220,15 +220,15 @@ i{
     flex-direction: column;
     justify-content: center;
 
-    margin: 60px;
-    width: 70%;
+    margin: 60px 0px;
+    width: 60%;
     /*DEBUG*/
     /*background-color: #1E90FF;*/
 }
 .contenuto_figli_sezione_scritte{
     margin: 60px 0px;
     padding-top: 40px;
-    width: 30%;
+    width: 40%;
     /*DEBUG*/
     /* background-color:#FFC0CA;*/
 }
