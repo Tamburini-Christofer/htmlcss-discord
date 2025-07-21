@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+.specialC{
+    font-weight: bolder;
+}
+
+
+
 body{
     font-size: 15px;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -47,11 +53,14 @@ h2{
     color: black;
     margin: 20px 0px;
 }
-/*DEBUG*/
 
-span{
-    font-size: 20px;
+i{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
 }
+
 
 /*Bottoni*/
 
@@ -155,6 +164,7 @@ button{
 }
 
 .nero{
+    padding-top: 30px ;
      background-color: #23272A;
 }
 
@@ -220,10 +230,20 @@ button{
 /*Footer*/
 
 .contenuto_sezione_rosso{
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
     width: 20%;
-    height: 90%;
+    height: 40%;
+    height: 200px;
     /*DEBUG*/
     /*background-color:#F08180;*/
+}
+
+.itaimg{
+    width: 20px;
+    height: 10px;
+    margin-right: 10px;
 }
 
 .contenuto_sezione_azzurretto{
@@ -248,7 +268,7 @@ button{
     align-self:flex-end;
 
     height: 80%;
-    width: 60%;
+    width: 70%;
     border-top: 1px solid #748EDB;
     background-color:#23272A ;
     padding-top: 40px ;
@@ -272,6 +292,11 @@ button{
     color: #7984D9;
 }
 
+.text_blu_mini{
+    font-size: 20px;
+    color: #7984D9;
+}
+
 .contenitore_link_footer > li{
     padding-bottom: 10px;
 }
@@ -282,4 +307,7 @@ button{
     display: flex;
     background-color: #23272A;
 }
+.lingua{
+    font-size:15px;
 
+}
