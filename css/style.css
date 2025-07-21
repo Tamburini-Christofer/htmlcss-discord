@@ -11,8 +11,6 @@
     font-weight: bolder;
 }
 
-
-
 body{
     font-size: 15px;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -66,7 +64,8 @@ i{
 
 button{
     border-radius: 20px;
-    padding: 10px 15px;
+    padding: 10px 20px;
+    margin-right: 10px;
     
 }
 
@@ -100,11 +99,11 @@ button{
 
 #header{
     /*Regole Flex*/
+    padding-top: 20px;
     font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
     background-color: #3160E0;
     /*DEBUG*/
     /*background-color:#B5D5E4;*/
@@ -233,9 +232,9 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: space;
-    width: 20%;
+    margin-top: 10px;
+    width: 25%;
     height: 40%;
-    height: 200px;
     /*DEBUG*/
     /*background-color:#F08180;*/
 }
@@ -293,12 +292,12 @@ button{
 }
 
 .text_blu_mini{
-    font-size: 20px;
+    font-size: 25px;
     color: #7984D9;
 }
 
 .contenitore_link_footer > li{
-    padding-bottom: 10px;
+    padding-bottom: 12px;
 }
 
 .sezione_footer{
