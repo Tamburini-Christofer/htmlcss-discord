@@ -8,6 +8,7 @@
 }
 
 body{
+    font-size: 15px;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -30,6 +31,7 @@ a{
 .text_white_center{
      color: white;
     text-align: center;
+    padding:20px 0PX;
 }
 
 h1{
@@ -113,8 +115,7 @@ button{
 }
 
 .big{ 
-    width: 40%;
-    height: 80%;
+    width: 60%;
     /*DEBUG*/
     /*background-color: #DDA41F;*/
 }
@@ -132,12 +133,13 @@ button{
     justify-content: center;
     display: flex;
     background-color: white;
-    margin-bottom: 40px;
 }
 .sezione_big{
     display: flex;
     flex-direction: column;
+    justify-items: center;
     align-items: center;
+    padding-bottom: 40px;
 } 
 
 .immagine_jumbo{
@@ -157,8 +159,6 @@ button{
 }
 
 .verde{
-    width: 60%;
-    height: 90%;
     /*DEBUG*/
     /*background-color: #218B21;*/
 }
@@ -185,7 +185,7 @@ button{
 .contenuto_sezione_jumbo{
     display: flex;
     flex-direction: column;
-    margin-bottom: 240px;
+    margin-bottom: 180px;
     width: 45%;
     /*DEBUG*/
     /*background-color:#EF82ED;*/
@@ -208,6 +208,15 @@ button{
     /* background-color:#FFC0CA;*/
 }
 
+.backimg{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/stars.svg);
+    height: 40px;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
 /*Footer*/
 
 .contenuto_sezione_rosso{
@@ -228,8 +237,7 @@ button{
 /*II Footer*/ 
 
 .footer{
-    border-top: 2px solid white;
-    height: 100px;
+    padding: 40px;
 }
 
 .contenuto_footer{
@@ -241,7 +249,9 @@ button{
 
     height: 80%;
     width: 60%;
+    border-top: 1px solid #748EDB;
     background-color:#23272A ;
+    padding-top: 40px ;
     /*DEBUG*/
     /*background-color:#20B3AA;*/
 }
@@ -249,9 +259,8 @@ button{
 .footerLB{
     font-size: 16px;
     padding: 10px 30px;
-    
     /*DEBUG*/
-    background-color: #FEB8C2;
+    /*background-color: #FEB8C2;*/
 }
 
 .contenitore_link_footer{
@@ -267,4 +276,10 @@ button{
     padding-bottom: 10px;
 }
 
+.sezione_footer{
+        /*Regole Flex*/
+    justify-content: center;
+    display: flex;
+    background-color: #23272A;
+}
 
