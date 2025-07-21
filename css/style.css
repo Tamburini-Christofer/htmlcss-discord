@@ -20,11 +20,23 @@ a{
     text-decoration: none;
 }
 
-.text_white a{
+.text_white{
     color: white;
 }
 .text_black{
     color: black;
+}
+
+.text_white_center{
+     color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 /*DEBUG*/
@@ -38,6 +50,7 @@ span{
 button{
     border-radius: 20px;
     padding: 10px 15px;
+    
 }
 
 .bazzurro{
@@ -54,6 +67,9 @@ button{
     background-color:black;
 }
 
+.bjumbo{
+    margin: 20px auto;
+}
 
 /*Body*/
 
@@ -67,6 +83,7 @@ button{
 
 #header{
     /*Regole Flex*/
+    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,7 +130,6 @@ button{
     height: 400px;
     background-color: white;
 }
-
 .sezione_big{
     height: 700px;
 } 
@@ -163,8 +179,12 @@ button{
     margin: 0 auto;
 }
 
-.violetto{
-    width: 40%;
+.contenuto_sezione_jumbo{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin: 0 auto;
+    width: 45%;
     /*DEBUG*/
     /*background-color:#EF82ED;*/
 }
