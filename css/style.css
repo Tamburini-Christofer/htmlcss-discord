@@ -232,7 +232,6 @@ button{
 
     background-image: url(../img/stars.svg);
     height: 40px;
-    background-position: cover;
     background-repeat: no-repeat;
 }
 
@@ -242,7 +241,6 @@ button{
     /*Regole Flex*/
     display: flex;
     flex-direction: column;
-    justify-content: space;
 
     margin-top: 30px;
     width: 25%;
