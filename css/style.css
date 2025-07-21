@@ -7,12 +7,9 @@
     box-sizing: border-box;
 }
 
-.specialC{
-    font-weight: bolder;
-}
-
 body{
-    font-size: 15px;
+    color: black;
+    font-size: 16px;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -32,6 +29,15 @@ a{
     color: black;
 }
 
+.text_blu{
+    color: #7984D9;
+}
+
+.text_blu_mini{
+    font-size: 20px;
+    color: #7984D9;
+}
+
 .text_white_center{
      color: white;
     text-align: center;
@@ -42,14 +48,14 @@ h1{
     font-size: 45px;
     font-weight: bold;
     text-align: center;
-    margin: 60px 0px 20px 0px;
+    margin: 80px 0px 20px 0px;
 }
 
 h2{
     font-size: 35px;
     font-weight: bold;
     color: black;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 i{
@@ -58,7 +64,6 @@ i{
     margin-top: 10px;
     color: white;
 }
-
 
 /*Bottoni*/
 
@@ -87,23 +92,16 @@ button{
     margin: 20px auto;
 }
 
-/*Body*/
-
-.flex_sezioni{
-    /*Regole Flex*/
-    display: flex;
-    flex-direction: column;
-}
-
 /*header*/
 
 #header{
     /*Regole Flex*/
-    padding-top: 20px;
-    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    padding-top: 20px;
+    font-size: 14px;
     background-color: #3160E0;
     /*DEBUG*/
     /*background-color:#B5D5E4;*/
@@ -122,16 +120,18 @@ button{
     /*background-color: #DDA41F;*/
 }
 
-.big{ 
-    width: 60%;
+.link_header{ 
+    width: 55%;
     /*DEBUG*/
     /*background-color: #DDA41F;*/
 }
 
 .contenitore_link{
-    width: 450px;
+    /*Regole Flex*/
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
+    
+    width: 450px;
 }
 
 /*Sezioni*/
@@ -140,36 +140,37 @@ button{
     /*Regole Flex*/
     justify-content: center;
     display: flex;
+
     background-color: white;
 }
 .sezione_big{
+    /*Regole Flex*/
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding-bottom: 40px;
+
+    padding: 40px 0px;
 } 
 
 .immagine_jumbo{
     background-image: url(../img/jumbo.png); 
     background-repeat: no-repeat;
     background-size: cover;
+
     /*DEBUG*/
     /*background-color: #020D85;*/
 }
+
+/*Colori sezioni*/ 
 
 .grigio{
     background-color: #D4D2D4;
 }
 
 .nero{
-    padding-top: 30px ;
+    padding: 40px 0PX ;
      background-color: #23272A;
-}
-
-.verde{
-    /*DEBUG*/
-    /*background-color: #218B21;*/
 }
 
 .rosso{
@@ -183,33 +184,40 @@ button{
     background-color: #20B3AA ;
 }
 
+/*Contenuto sezioni*/
+
 .contenuto_sezione{
     /*Regole Flex*/
     display: flex;
-    width: 70%;
+
+    width: 60%;
     height: 80%;
     margin: 0 auto;
 }
 
 .contenuto_sezione_jumbo{
+    /*Regole Flex*/
     display: flex;
     flex-direction: column;
-    margin-bottom: 180px;
-    width: 45%;
+
+    margin-bottom: 140px;
+    width: 40%;
     /*DEBUG*/
     /*background-color:#EF82ED;*/
 }
 
-.contenuto_figli_sezione_azzurro{
-    margin: 60px;
+.contenuto_figli_sezione_immagini{
+    /*Regole Flex*/
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    margin: 60px;
     width: 60%;
     /*DEBUG*/
     /*background-color: #1E90FF;*/
 }
-.contenuto_figli_sezione_rosa{
+.contenuto_figli_sezione_scritte{
     margin: 60px 0px;
     padding-top: 20px;
     width: 40%;
@@ -218,8 +226,10 @@ button{
 }
 
 .backimg{
+    /*Regole Flex*/
     display: flex;
     justify-content: center;
+
     background-image: url(../img/stars.svg);
     height: 40px;
     background-position: cover;
@@ -229,10 +239,12 @@ button{
 /*Footer*/
 
 .contenuto_sezione_rosso{
+    /*Regole Flex*/
     display: flex;
     flex-direction: column;
     justify-content: space;
-    margin-top: 10px;
+
+    margin-top: 30px;
     width: 25%;
     height: 40%;
     /*DEBUG*/
@@ -256,7 +268,7 @@ button{
 /*II Footer*/ 
 
 .footer{
-    padding: 40px;
+    padding-bottom: 20px;
 }
 
 .contenuto_footer{
@@ -283,17 +295,9 @@ button{
 }
 
 .contenitore_link_footer{
+    /*Regole Flex*/
     display: flex;
     flex-direction: column;
-}
-
-.text_blu{
-    color: #7984D9;
-}
-
-.text_blu_mini{
-    font-size: 25px;
-    color: #7984D9;
 }
 
 .contenitore_link_footer > li{
@@ -304,6 +308,7 @@ button{
         /*Regole Flex*/
     justify-content: center;
     display: flex;
+
     background-color: #23272A;
 }
 .lingua{
