@@ -59,6 +59,7 @@ h1{
 }
 
 h2{
+    margin-bottom: 20px;
     font-size: 35px;
     font-weight: bold;
     color: black;
@@ -221,14 +222,14 @@ i{
     justify-content: center;
 
     margin: 60px 0px;
-    width: 60%;
+    width: 70%;
     /*DEBUG*/
     /*background-color: #1E90FF;*/
 }
 .contenuto_figli_sezione_scritte{
     margin: 60px 0px;
     padding-top: 40px;
-    width: 40%;
+    width: 30%;
     /*DEBUG*/
     /* background-color:#FFC0CA;*/
 }
